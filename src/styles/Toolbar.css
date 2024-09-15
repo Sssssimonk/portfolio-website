@@ -1,0 +1,39 @@
+.App-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.toolbar-left h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.toolbar-right {
+  display: flex;
+  gap: 20px;
+}
+
+.App-toolbar a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.App-toolbar a:hover {
+  color: #db4411;
+}
+
+.App-toolbar button {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
